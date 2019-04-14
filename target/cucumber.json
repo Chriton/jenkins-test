@@ -1,0 +1,533 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1417254980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebDriverFactory.initializePage(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2310893776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsBeforeScenario.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Availability Of Homepage",
+        "description": "",
+        "id": "homepage;availability-of-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 298957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsAfterScenario.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2437648576,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open the \"home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 12
+                }
+              ],
+              "location": "HomepageDefinitions.iOpenThePage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22042637,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageDefinitions.checkIfOnMentionedPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 888373048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebDriverFactory.initializePage(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2374891212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsBeforeScenario.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Functionality Of Login Button",
+        "description": "",
+        "id": "homepage;functionality-of-login-button",
+        "after": [
+          {
+            "result": {
+              "duration": 230824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsAfterScenario.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2167475924,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open the \"home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 12
+                }
+              ],
+              "location": "HomepageDefinitions.iOpenThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1736489868,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the \"login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 16
+                }
+              ],
+              "location": "HomepageDefinitions.clickOnTheHomepageLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20812207,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on the \"login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageDefinitions.checkIfOnMentionedPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 865811141,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebDriverFactory.initializePage(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2262562546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsBeforeScenario.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Functionality Of Register Button",
+        "description": "",
+        "id": "homepage;functionality-of-register-button",
+        "after": [
+          {
+            "result": {
+              "duration": 258905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsAfterScenario.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1973449832,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I open the \"home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 12
+                }
+              ],
+              "location": "HomepageDefinitions.iOpenThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2438414425,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the \"register\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register",
+                  "offset": 16
+                }
+              ],
+              "location": "HomepageDefinitions.clickOnTheHomepageLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17424856,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on the \"register\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageDefinitions.checkIfOnMentionedPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage",
+    "description": "  In order to use the DHL website\n  As a user\n  I need to be able to open the homepage",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "classpath:biz/netcentric/ta/frontend/internal/homepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 887300291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebDriverFactory.initializePage(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2341014802,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsBeforeScenario.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login with correct credentials v2",
+        "description": "",
+        "id": "login;login-with-correct-credentials-v2",
+        "after": [
+          {
+            "result": {
+              "duration": 179495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsAfterScenario.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1611934121,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the \"login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 19
+                }
+              ],
+              "location": "HomepageDefinitions.iOpenThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290638104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I use the following credentials",
+            "match": {
+              "location": "LoginDefinitions.iUseTheFollowingCredentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "doru.muntean@netcentric.biz"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Tester123#"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12030530656,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I press the login button",
+            "match": {
+              "location": "LoginDefinitions.iPressTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat biz.netcentric.ta.frontend.it.internal.LoginDefinitions.iAmLogged(LoginDefinitions.java:86)\n\tat ✽.I am logged \"in\"(classpath:biz/netcentric/ta/frontend/internal/login.feature:13)\n",
+              "duration": 10116877560,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I am logged \"in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "in",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginDefinitions.iAmLogged(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 844555636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebDriverFactory.initializePage(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2179933809,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsBeforeScenario.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with correct credentials v1",
+        "description": "",
+        "id": "login;login-with-correct-credentials-v1",
+        "after": [
+          {
+            "result": {
+              "duration": 147682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActionsAfterScenario.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1862141404,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigate to the \"login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 19
+                }
+              ],
+              "location": "HomepageDefinitions.iOpenThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171369011,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"doru.muntean@netcentric.biz\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "doru.muntean@netcentric.biz",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginDefinitions.iEnterInTheEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97201277,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"Tester123#\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester123#",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginDefinitions.iEnterInThePasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11743672051,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I press the login button",
+            "match": {
+              "location": "LoginDefinitions.iPressTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat biz.netcentric.ta.frontend.it.internal.LoginDefinitions.iAmLogged(LoginDefinitions.java:86)\n\tat ✽.I am logged \"in\"(classpath:biz/netcentric/ta/frontend/internal/login.feature:20)\n",
+              "duration": 10111621980,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I am logged \"in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "in",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginDefinitions.iAmLogged(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  In order to use the DHL website\n  As a registered user\n  I need to be able to login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:biz/netcentric/ta/frontend/internal/login.feature",
+    "tags": []
+  }
+]
